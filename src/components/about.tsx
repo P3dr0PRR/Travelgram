@@ -7,7 +7,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="px-4 md:px-20 py-8 flex flex-col lg:flex-row gap-6 md:gap-0 items-center justify-between"
+      className="px-4 md:px-20 py-8 flex flex-col lg:flex-row gap-6 md:gap-0 items-center justify-between space-y-4"
     >
       <div className="flex flex-col md:flex-row items-center gap-8">
         <img

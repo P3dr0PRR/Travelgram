@@ -6,7 +6,7 @@ export function Footer() {
           Termos de Uso
         </p>
         <div className="flex flex-col items-center justify-center space-y-2">
-          <p className="transition-all duration-300 hover:scale-125 hover:brightness-10">
+          <p className="text-center transition-all duration-300 hover:scale-125 hover:brightness-10">
             Travelgram &copy; 2024
           </p>
           <p className="transition-all duration-300 hover:scale-125 hover:brightness-10 text-center">
