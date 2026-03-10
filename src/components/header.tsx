@@ -4,7 +4,7 @@ import Guibi from "../assets/imgs/Guibi.png";
 
 export function Header() {
   return (
-    <header className="w-full py-20 gap-6 space-y-6 text-[#6C6C6C] flex flex-col lg:flex-row items-center justify-center md:justify-between md:px-32">
+    <header className="w-full py-10 gap-6 space-y-6 text-[#6C6C6C] flex flex-col lg:flex-row items-center justify-center md:justify-between md:px-32">
       <div>
         <img src={logo} alt="Travelgram logo" className="h-10" />
       </div>
