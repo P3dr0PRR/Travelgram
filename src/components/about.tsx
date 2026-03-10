@@ -16,8 +16,10 @@ export function About() {
           className="h-32 w-32 lg:h-42 lg:w-42 shrink-0 rounded-full object-cover"
         />
         <div className="flex flex-col items-center lg:w-[529px]">
-          <h1 className="text-3xl lg:text-4xl font-bold">Pedro Paulo</h1>
-          <p className="text-md lg:text-xl text-center text-gray-600 w-80 md:w-full">
+          <h1 className="text-3xl lg:text-4xl font-bold text-[#313131]">
+            Pedro Paulo
+          </h1>
+          <p className="text-md lg:text-xl text-center text-[#6C6C6C] w-80 md:w-full">
             Viajante apaixonado por explorar o mundo e compartilhar suas
             experiências. Com um espírito aventureiro e uma câmera sempre à mão,
             Pedro busca capturar a essência de cada destino que visita,
@@ -25,7 +27,7 @@ export function About() {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-col justify-between gap-4 w-full lg:w-72 lg:pl-32">
+      <div className="flex lg:flex-col justify-between gap-4 w-full lg:w-72 lg:pl-32 text-[#6C6C6C]">
         <div className="flex items-center justify-center lg:justify-start w-full gap-2">
           <img src={Place} alt="Location" className="w-6" />
           <p className="text-gray-600 md:text-lg">Minas Gerais, Brasil</p>
