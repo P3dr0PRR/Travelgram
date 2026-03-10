@@ -10,6 +10,7 @@ function App() {
       <About />
       <Galery />
       <Footer />
+      
     </main>
   );
 }
